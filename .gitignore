@@ -1,0 +1,138 @@
+# =========================================
+# OS FILES
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# PYTHON
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# =========================================
+# ENV FILES / SECRETS
+# =========================================
+.env
+.env.local
+.env.*
+!.env.example
+
+# API keys / secrets
+secrets.json
+credentials.json
+
+# =========================================
+# NODE.JS / FRONTEND
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# React/Vite
+dist/
+coverage/
+
+# =========================================
+# TYPESCRIPT
+# =========================================
+*.tsbuildinfo
+
+# =========================================
+# IDEs / EDITORS
+# =========================================
+.vscode/
+.idea/
+
+# =========================================
+# DOCKER
+# =========================================
+docker-compose.override.yml
+
+# =========================================
+# DATABASES
+# =========================================
+*.sqlite3
+*.db
+
+# =========================================
+# MACHINE LEARNING / DATA SCIENCE
+# =========================================
+models/
+checkpoints/
+wandb/
+mlruns/
+
+# Large datasets
+data/
+datasets/
+
+# =========================================
+# TEMP FILES
+# =========================================
+tmp/
+temp/
+*.tmp
+
+# =========================================
+# BUILD ARTIFACTS
+# =========================================
+*.out
+*.exe
+*.class
+*.o
+
+# =========================================
+# CACHE
+# =========================================
+.cache/
+.mypy_cache/
+ruff_cache/
+
+# =========================================
+# FASTAPI
+# =========================================
+*.pid
+
+# =========================================
+# OPENWEBUI / RAG STORAGE
+# =========================================
+chroma/
+faiss_index/
+vectorstore/
+
+# =========================================
+# UPLOADS
+# =========================================
+uploads/
+media/
